@@ -1,0 +1,10 @@
+{
+    "url": "/scenes/{{parameters.sceneId}}/execute",
+    "method": "POST",
+    "qs": {
+        "locationId": "{{parameters.locationId}}"
+    },
+    "response": {
+        "output": "{{undefined}}"
+    }
+}

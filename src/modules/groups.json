@@ -1,0 +1,15 @@
+[
+	{
+		"label": "Other",
+		"modules": [
+			"createLocation",
+			"deleteLocation",
+			"executeRule",
+			"executeScene",
+			"getLocation",
+			"listRooms",
+			"listRules",
+			"universal"
+		]
+	}
+]

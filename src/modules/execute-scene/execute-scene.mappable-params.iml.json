@@ -1,0 +1,28 @@
+[
+    {
+        "name": "sceneId",
+        "type": "text",
+        "rpc": {
+            "label": "Search Scenes",
+            "parameters": [
+                {
+                    "name": "locations",
+                    "label": "Location ID",
+                    "type": "select",
+                    "options": {
+                        "store": "rpc://locations"
+                    }
+                }
+            ],
+            "url": "rpc://scenes"
+        },
+        "label": "Scene ID",
+        "required": true
+    },
+    {
+        "name": "locationId",
+        "type": "select",
+        "label": "Location ID",
+        "options": "rpc://locations"
+    }
+]

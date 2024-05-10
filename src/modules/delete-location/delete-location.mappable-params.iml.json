@@ -1,0 +1,10 @@
+[
+    {
+        "name": "id",
+        "type": "select",
+        "options": "rpc://locations",
+        "mode": "edit",
+        "label": "Location ID",
+        "required": true
+    }
+]

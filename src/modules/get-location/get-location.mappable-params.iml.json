@@ -1,0 +1,16 @@
+[
+    {
+        "name": "id",
+        "type": "select",
+        "options": "rpc://locations",
+        "mode": "edit",
+        "label": "Location ID",
+        "required": true
+    },
+    {
+        "name": "allowed",
+        "type": "boolean",
+        "label": "Allowed",
+        "advanced": true
+    }
+]
