@@ -252,6 +252,34 @@
                     "samples": "modules/update-room/update-room.samples.iml.json",
                     "scope": "modules/update-room/update-room.scope.iml.json"
                 }
+            },
+            "createHouse": {
+                "label": "Create a New House",
+                "description": "Creates a new house.",
+                "moduleType": "action",
+                "actionCrud": "create",
+                "codeFiles": {
+                    "communication": "modules/create-house/create-house.communication.iml.json",
+                    "staticParams": "modules/create-house/create-house.static-params.iml.json",
+                    "mappableParams": "modules/create-house/create-house.mappable-params.iml.json",
+                    "interface": "modules/create-house/create-house.interface.iml.json",
+                    "samples": "modules/create-house/create-house.samples.iml.json",
+                    "scope": "modules/create-house/create-house.scope.iml.json"
+                }
+            },
+            "updateHouse": {
+                "label": "Update a House",
+                "description": "Updates a house.",
+                "moduleType": "action",
+                "actionCrud": "create",
+                "codeFiles": {
+                    "communication": "modules/update-house/update-house.communication.iml.json",
+                    "staticParams": "modules/update-house/update-house.static-params.iml.json",
+                    "mappableParams": "modules/update-house/update-house.mappable-params.iml.json",
+                    "interface": "modules/update-house/update-house.interface.iml.json",
+                    "samples": "modules/update-house/update-house.samples.iml.json",
+                    "scope": "modules/update-house/update-house.scope.iml.json"
+                }
             }
         },
         "function": {
@@ -347,6 +375,22 @@
                     {
                         "local": "universal",
                         "remote": "universal"
+                    },
+                    {
+                        "local": "deleteRoom",
+                        "remote": "deleteRoom"
+                    },
+                    {
+                        "local": "getRoom",
+                        "remote": "getRoom"
+                    },
+                    {
+                        "local": "listLocations",
+                        "remote": "listLocations"
+                    },
+                    {
+                        "local": "listScenes",
+                        "remote": "listScenes"
                     }
                 ],
                 "function": [

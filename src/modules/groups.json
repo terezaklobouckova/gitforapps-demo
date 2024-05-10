@@ -1,22 +1,24 @@
 [
-	{
-		"label": "Other",
-		"modules": [
-			"createLocation",
-			"createRoom",
-			"deleteLocation",
-			"deleteRoom",
-			"executeRule",
-			"executeScene",
-			"getLocation",
-			"getRoom",
-			"listLocations",
-			"listRooms",
-			"listRules",
-			"listScenes",
-			"universal",
-			"updateLocation",
-			"updateRoom"
-		]
-	}
+    {
+        "label": "Other",
+        "modules": [
+            "createLocation",
+            "createRoom",
+            "deleteLocation",
+            "deleteRoom",
+            "executeRule",
+            "executeScene",
+            "getLocation",
+            "getRoom",
+            "listLocations",
+            "listRooms",
+            "listRules",
+            "listScenes",
+            "universal",
+            "updateLocation",
+            "updateRoom",
+            "createHouse",
+            "updateHouse"
+        ]
+    }
 ]
