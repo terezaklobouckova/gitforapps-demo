@@ -1,0 +1,85 @@
+[
+    {
+        "name": "id",
+        "type": "select",
+        "options": "rpc://locations",
+        "mode": "edit",
+        "label": "Location ID",
+        "required": true
+    },
+    {
+        "name": "name",
+        "type": "text",
+        "label": "Name",
+        "required": true
+    },
+    {
+        "name": "countryCode",
+        "type": "text",
+        "label": "Country Code",
+        "required": true,
+        "help": "An `ISO Alpha-3` country code (e.g. `GBR`, `USA`)"
+    },
+    {
+        "name": "latitude",
+        "type": "number",
+        "label": "Latitude"
+    },
+    {
+        "name": "longitude",
+        "type": "number",
+        "label": "Longitude"
+    },
+    {
+        "name": "regionRadius",
+        "type": "number",
+        "label": "Region Radius",
+        "validate": {
+            "min": 20,
+            "max": 500000
+        }
+    },
+    {
+        "name": "temperatureScale",
+        "type": "select",
+        "label": "Temperature Scale",
+        "options": [
+            {
+                "value": "F",
+                "label": "F"
+            },
+            {
+                "value": "C",
+                "label": "C"
+            }
+        ]
+    },
+    {
+        "name": "timeZoneId",
+        "type": "text",
+        "label": "Timezone ID"
+    },
+    {
+        "name": "locale",
+        "type": "text",
+        "label": "Locale",
+        "help": "`POSIX` locale or `IETF BCP 47` language tag."
+    } /*,
+    {
+        "name": "parent",
+        "label": "Parent",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "type",
+                "type": "text",
+                "label": "Type"
+            },
+            {
+                "name": "id",
+                "type": "text",
+                "label": "ID"
+            }
+        ]
+    }*/
+]

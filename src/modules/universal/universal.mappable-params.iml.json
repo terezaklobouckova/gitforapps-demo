@@ -1,84 +1,15 @@
 [
     {
-        "help": "Enter a path relative to `https://api.smartthings.com`, e.g. `/v1/locations`",
-        "name": "url",
+        "name": "name",
         "type": "text",
-        "label": "URL",
+        "label": "Name",
         "required": true
     },
     {
-        "name": "method",
+        "name": "locationId",
         "type": "select",
-        "label": "Method",
-        "default": "GET",
-        "options": [
-            {
-                "label": "GET",
-                "value": "GET"
-            },
-            {
-                "label": "POST",
-                "value": "POST"
-            },
-            {
-                "label": "PUT",
-                "value": "PUT"
-            },
-            {
-                "label": "PATCH",
-                "value": "PATCH"
-            },
-            {
-                "label": "DELETE",
-                "value": "DELETE"
-            }
-        ],
+        "label": "Location ID",
+        "options": "rpc://locations",
         "required": true
-    },
-    {
-        "help": "You don't have to add authorization headers; we already did that for you.",
-        "name": "headers",
-        "spec": [
-            {
-                "name": "key",
-                "type": "text",
-                "label": "Key"
-            },
-            {
-                "name": "value",
-                "type": "text",
-                "label": "Value"
-            }
-        ],
-        "type": "array",
-        "label": "Headers",
-        "default": [
-            {
-                "key": "Content-Type",
-                "value": "application/json"
-            }
-        ]
-    },
-    {
-        "name": "qs",
-        "spec": [
-            {
-                "name": "key",
-                "type": "text",
-                "label": "Key"
-            },
-            {
-                "name": "value",
-                "type": "text",
-                "label": "Value"
-            }
-        ],
-        "type": "array",
-        "label": "Query String"
-    },
-    {
-        "name": "body",
-        "type": "any",
-        "label": "Body"
     }
 ]

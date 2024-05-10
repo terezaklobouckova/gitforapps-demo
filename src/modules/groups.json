@@ -3,13 +3,20 @@
 		"label": "Other",
 		"modules": [
 			"createLocation",
+			"createRoom",
 			"deleteLocation",
+			"deleteRoom",
 			"executeRule",
 			"executeScene",
 			"getLocation",
+			"getRoom",
+			"listLocations",
 			"listRooms",
 			"listRules",
-			"universal"
+			"listScenes",
+			"universal",
+			"updateLocation",
+			"updateRoom"
 		]
 	}
 ]

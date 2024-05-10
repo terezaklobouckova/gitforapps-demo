@@ -1,6 +1,6 @@
 {
-    "url": "/locations/{{parameters.locationId}}/rooms",
-    "method": "POST",
+    "url": "/locations/{{parameters.locationId}}/rooms/{{parameters.roomId}}",
+    "method": "PUT",
     "body": {
         "name": "{{parameters.name}}"
     },

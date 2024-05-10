@@ -1,0 +1,7 @@
+{
+    "url": "/locations/{{parameters.locationId}}/rooms/{{parameters.roomId}}",
+    "method": "DELETE",
+    "response": {
+        "output": "{{undefined}}"
+    }
+}

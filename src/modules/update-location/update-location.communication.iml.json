@@ -1,0 +1,8 @@
+{
+    "url": "/locations/{{parameters.id}}",
+    "method": "PUT",
+    "body": "{{parameters}}",
+    "response": {
+        "output": "{{parseTimestamps(body)}}"
+    }
+}
