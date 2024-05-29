@@ -1,9 +1,0 @@
-[
-    {
-        "name": "limit",
-        "type": "number",
-        "label": "Limit",
-        "default": 10,
-        "help": "Maximum number of results."
-    }
-]

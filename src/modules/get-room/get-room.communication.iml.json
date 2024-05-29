@@ -1,7 +1,0 @@
-{
-    "url": "/locations/{{parameters.locationId}}/rooms/{{parameters.roomId}}",
-    "method": "GET",
-    "response": {
-        "output": "{{parseTimestamps(body)}}"
-    }
-}

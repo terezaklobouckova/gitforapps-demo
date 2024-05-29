@@ -1,9 +1,0 @@
-[
-    {
-        "name": "apiKey",
-        "type": "text",
-        "label": "Personal Access Token",
-        "required": true,
-        "help": "Obtain your Personal Access Token [here](https://account.smartthings.com/tokens)."
-    }
-]
