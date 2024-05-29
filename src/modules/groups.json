@@ -12,7 +12,8 @@
 			"listLocations",
 			"listRooms",
 			"listRules",
-			"testModuleJan"
+			"testModuleJan",
+			"test"
 		]
 	}
 ]
