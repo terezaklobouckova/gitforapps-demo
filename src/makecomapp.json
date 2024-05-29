@@ -190,6 +190,21 @@
                     "samples": "modules/universal/universal.samples.iml.json",
                     "scope": "modules/universal/universal.scope.iml.json"
                 }
+            },
+            "test": {
+                "label": "Test",
+                "description": "This is testing od",
+                "moduleType": "action",
+                "actionCrud": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/test/test.communication.iml.json",
+                    "staticParams": "modules/test/test.static-params.iml.json",
+                    "mappableParams": "modules/test/test.mappable-params.iml.json",
+                    "interface": "modules/test/test.interface.iml.json",
+                    "samples": "modules/test/test.samples.iml.json",
+                    "scope": "modules/test/test.scope.iml.json"
+                }
             }
         },
         "function": {
@@ -288,6 +303,10 @@
                     {
                         "local": "universal",
                         "remote": "universal"
+                    },
+                    {
+                        "local": "test",
+                        "remote": "test"
                     }
                 ],
                 "function": [
@@ -312,7 +331,7 @@
                 ],
                 "webhook": []
             },
-            "apikeyFile": "../.secrets/apikey4"
+            "apikeyFile": "../.secrets/apikey"
         }
     ]
 }

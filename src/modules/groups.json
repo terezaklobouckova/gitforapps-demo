@@ -12,7 +12,8 @@
 			"universal",
 			"deleteRoom",
 			"getRoom",
-			"listLocations"
+			"listLocations",
+			"test"
 		]
 	}
 ]
