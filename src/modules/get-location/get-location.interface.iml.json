@@ -1,0 +1,90 @@
+[
+    {
+        "name": "locationId",
+        "type": "text",
+        "label": "Location ID"
+    },
+    {
+        "name": "name",
+        "type": "text",
+        "label": "Name"
+    },
+    {
+        "name": "countryCode",
+        "type": "text",
+        "label": "Country Code"
+    },
+    {
+        "name": "latitude",
+        "type": "text",
+        "label": "Latitude"
+    },
+    {
+        "name": "longitude",
+        "type": "text",
+        "label": "Longitude"
+    },
+    {
+        "name": "regionRadius",
+        "type": "text",
+        "label": "Region Radius"
+    },
+    {
+        "name": "temperatureScale",
+        "type": "text",
+        "label": "Temperature Scale"
+    },
+    {
+        "name": "timeZoneId",
+        "type": "text",
+        "label": "Timezone ID"
+    },
+    {
+        "name": "locale",
+        "type": "text",
+        "label": "Locale"
+    },
+    {
+        "name": "backgroundImage",
+        "type": "text",
+        "label": "Background Image"
+    },
+    {
+        "name": "additionalProperties",
+        "type": "collection",
+        "spec": [],
+        "label": "Additional Properties"
+    },
+    {
+        "name": "allowed",
+        "type": "boolean",
+        "label": "Allowed"
+    },
+    {
+        "name": "parent",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "type",
+                "type": "text",
+                "label": "Type"
+            },
+            {
+                "name": "id",
+                "type": "text",
+                "label": "ID"
+            }
+        ],
+        "label": "Parent"
+    },
+    {
+        "name": "created",
+        "type": "timestamp",
+        "label": "Created"
+    },
+    {
+        "name": "lastModified",
+        "type": "timestamp",
+        "label": "Last Modified"
+    }
+]

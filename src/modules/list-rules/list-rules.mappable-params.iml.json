@@ -1,0 +1,16 @@
+[
+    {
+        "name": "locationId",
+        "type": "select",
+        "options": "rpc://locations",
+        "label": "Location ID",
+        "required": true
+    },
+    {
+        "name": "limit",
+        "type": "number",
+        "label": "Limit",
+        "default": 10,
+        "help": "Maximum number of results."
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "url": "/locations/{{parameters.id}}/rooms",
+    "method": "GET",
+    "response": {
+        "output": "{{parseTimestamps(item)}}",
+        "iterate": "{{body.items}}",
+        "limit": "{{parameters.limit}}"
+    },
+    "qs": {
+        "limit": 100
+    },
+    "pagination": {
+        "condition": "{{ifempty(body._links.next.href, false)}}",
+        "url": "{{body._links.next.href}}"
+    }
+}

@@ -1,0 +1,318 @@
+{
+    "fileVersion": 1,
+    "generalCodeFiles": {
+        "base": "general/base.iml.json",
+        "common": null,
+        "readme": "README.md",
+        "groups": "modules/groups.json"
+    },
+    "components": {
+        "connection": {
+            "connection1": {
+                "label": "SmartThings",
+                "connectionType": "basic",
+                "codeFiles": {
+                    "communication": "connections/connection1/connection1.communication.iml.json",
+                    "params": "connections/connection1/connection1.params.iml.json",
+                    "common": null
+                }
+            }
+        },
+        "module": {
+            "createLocation": {
+                "label": "Create a Location",
+                "description": "Creates a location for a user.",
+                "moduleType": "action",
+                "actionCrud": "create",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/create-location/create-location.communication.iml.json",
+                    "staticParams": "modules/create-location/create-location.static-params.iml.json",
+                    "mappableParams": "modules/create-location/create-location.mappable-params.iml.json",
+                    "interface": "modules/create-location/create-location.interface.iml.json",
+                    "samples": "modules/create-location/create-location.samples.iml.json",
+                    "scope": "modules/create-location/create-location.scope.iml.json"
+                }
+            },
+            "deleteLocation": {
+                "label": "Delete a Location",
+                "description": "Deletes a location.",
+                "moduleType": "action",
+                "actionCrud": "delete",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/delete-location/delete-location.communication.iml.json",
+                    "staticParams": "modules/delete-location/delete-location.static-params.iml.json",
+                    "mappableParams": "modules/delete-location/delete-location.mappable-params.iml.json",
+                    "interface": "modules/delete-location/delete-location.interface.iml.json",
+                    "samples": "modules/delete-location/delete-location.samples.iml.json",
+                    "scope": "modules/delete-location/delete-location.scope.iml.json"
+                }
+            },
+            "deleteRoom": {
+                "label": "Delete a Room",
+                "description": "Deletes a room.",
+                "moduleType": "action",
+                "actionCrud": "delete",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/delete-room/delete-room.communication.iml.json",
+                    "staticParams": "modules/delete-room/delete-room.static-params.iml.json",
+                    "mappableParams": "modules/delete-room/delete-room.mappable-params.iml.json",
+                    "interface": "modules/delete-room/delete-room.interface.iml.json",
+                    "samples": "modules/delete-room/delete-room.samples.iml.json",
+                    "scope": "modules/delete-room/delete-room.scope.iml.json"
+                }
+            },
+            "executeRule": {
+                "label": "Execute a Rule",
+                "description": "Executes a rule.",
+                "moduleType": "action",
+                "actionCrud": "create",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/execute-rule/execute-rule.communication.iml.json",
+                    "staticParams": "modules/execute-rule/execute-rule.static-params.iml.json",
+                    "mappableParams": "modules/execute-rule/execute-rule.mappable-params.iml.json",
+                    "interface": "modules/execute-rule/execute-rule.interface.iml.json",
+                    "samples": "modules/execute-rule/execute-rule.samples.iml.json",
+                    "scope": "modules/execute-rule/execute-rule.scope.iml.json"
+                }
+            },
+            "executeScene": {
+                "label": "Execute a Scene",
+                "description": "Executes a scene.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/execute-scene/execute-scene.communication.iml.json",
+                    "staticParams": "modules/execute-scene/execute-scene.static-params.iml.json",
+                    "mappableParams": "modules/execute-scene/execute-scene.mappable-params.iml.json",
+                    "interface": "modules/execute-scene/execute-scene.interface.iml.json",
+                    "samples": "modules/execute-scene/execute-scene.samples.iml.json",
+                    "scope": "modules/execute-scene/execute-scene.scope.iml.json"
+                }
+            },
+            "getLocation": {
+                "label": "Get a Location",
+                "description": "Retrieves a location.",
+                "moduleType": "action",
+                "actionCrud": null,
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-location/get-location.communication.iml.json",
+                    "staticParams": "modules/get-location/get-location.static-params.iml.json",
+                    "mappableParams": "modules/get-location/get-location.mappable-params.iml.json",
+                    "interface": "modules/get-location/get-location.interface.iml.json",
+                    "samples": "modules/get-location/get-location.samples.iml.json",
+                    "scope": "modules/get-location/get-location.scope.iml.json"
+                }
+            },
+            "getRoom": {
+                "label": "Get a Room",
+                "description": "Retrieves a room.",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-room/get-room.communication.iml.json",
+                    "staticParams": "modules/get-room/get-room.static-params.iml.json",
+                    "mappableParams": "modules/get-room/get-room.mappable-params.iml.json",
+                    "interface": "modules/get-room/get-room.interface.iml.json",
+                    "samples": "modules/get-room/get-room.samples.iml.json",
+                    "scope": "modules/get-room/get-room.scope.iml.json"
+                }
+            },
+            "listLocations": {
+                "label": "List Locations",
+                "description": "Lists all locations currently available in a user account.",
+                "moduleType": "search",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/list-locations/list-locations.communication.iml.json",
+                    "staticParams": "modules/list-locations/list-locations.static-params.iml.json",
+                    "mappableParams": "modules/list-locations/list-locations.mappable-params.iml.json",
+                    "interface": "modules/list-locations/list-locations.interface.iml.json",
+                    "samples": "modules/list-locations/list-locations.samples.iml.json",
+                    "scope": "modules/list-locations/list-locations.scope.iml.json"
+                }
+            },
+            "listRooms": {
+                "label": "List Rooms",
+                "description": "Lists rooms.",
+                "moduleType": "search",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/list-rooms/list-rooms.communication.iml.json",
+                    "staticParams": "modules/list-rooms/list-rooms.static-params.iml.json",
+                    "mappableParams": "modules/list-rooms/list-rooms.mappable-params.iml.json",
+                    "interface": "modules/list-rooms/list-rooms.interface.iml.json",
+                    "samples": "modules/list-rooms/list-rooms.samples.iml.json",
+                    "scope": "modules/list-rooms/list-rooms.scope.iml.json"
+                }
+            },
+            "listRules": {
+                "label": "List Rules",
+                "description": "Lists rules.",
+                "moduleType": "search",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/list-rules/list-rules.communication.iml.json",
+                    "staticParams": "modules/list-rules/list-rules.static-params.iml.json",
+                    "mappableParams": "modules/list-rules/list-rules.mappable-params.iml.json",
+                    "interface": "modules/list-rules/list-rules.interface.iml.json",
+                    "samples": "modules/list-rules/list-rules.samples.iml.json",
+                    "scope": "modules/list-rules/list-rules.scope.iml.json"
+                }
+            },
+            "universal": {
+                "label": "Make an API Call",
+                "description": "Performs an arbitrary authorised call.",
+                "moduleType": "universal",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/universal/universal.communication.iml.json",
+                    "staticParams": "modules/universal/universal.static-params.iml.json",
+                    "mappableParams": "modules/universal/universal.mappable-params.iml.json",
+                    "interface": "modules/universal/universal.interface.iml.json",
+                    "samples": "modules/universal/universal.samples.iml.json",
+                    "scope": "modules/universal/universal.scope.iml.json"
+                }
+            }
+        },
+        "function": {
+            "parseTimestamps": {
+                "codeFiles": {
+                    "code": "functions/parse-timestamps/parse-timestamps.code.js",
+                    "test": "functions/parse-timestamps/parse-timestamps.test.js"
+                }
+            }
+        },
+        "rpc": {
+            "locations": {
+                "label": "locations",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "rpcs/locations/locations.communication.iml.json",
+                    "params": "rpcs/locations/locations.params.iml.json"
+                }
+            },
+            "rooms": {
+                "label": "rooms",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "rpcs/rooms/rooms.communication.iml.json",
+                    "params": "rpcs/rooms/rooms.params.iml.json"
+                }
+            },
+            "rules": {
+                "label": "rules",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "rpcs/rules/rules.communication.iml.json",
+                    "params": "rpcs/rules/rules.params.iml.json"
+                }
+            }
+        },
+        "webhook": {}
+    },
+    "origins": [
+        {
+            "label": "Origin",
+            "baseUrl": "https://eu1.make.com/api",
+            "appId": "smartthings-production",
+            "appVersion": 1,
+            "idMapping": {
+                "connection": [
+                    {
+                        "local": "connection1",
+                        "remote": "smartthings-production"
+                    }
+                ],
+                "module": [
+                    {
+                        "local": "createLocation",
+                        "remote": "createLocation"
+                    },
+                    {
+                        "local": "deleteLocation",
+                        "remote": "deleteLocation"
+                    },
+                    {
+                        "local": "deleteRoom",
+                        "remote": "deleteRoom"
+                    },
+                    {
+                        "local": "executeRule",
+                        "remote": "executeRule"
+                    },
+                    {
+                        "local": "executeScene",
+                        "remote": "executeScene"
+                    },
+                    {
+                        "local": "getLocation",
+                        "remote": "getLocation"
+                    },
+                    {
+                        "local": "getRoom",
+                        "remote": "getRoom"
+                    },
+                    {
+                        "local": "listLocations",
+                        "remote": "listLocations"
+                    },
+                    {
+                        "local": "listRooms",
+                        "remote": "listRooms"
+                    },
+                    {
+                        "local": "listRules",
+                        "remote": "listRules"
+                    },
+                    {
+                        "local": "universal",
+                        "remote": "universal"
+                    }
+                ],
+                "function": [
+                    {
+                        "local": "parseTimestamps",
+                        "remote": "parseTimestamps"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "local": "locations",
+                        "remote": "locations"
+                    },
+                    {
+                        "local": "rooms",
+                        "remote": "rooms"
+                    },
+                    {
+                        "local": "rules",
+                        "remote": "rules"
+                    }
+                ],
+                "webhook": []
+            },
+            "apikeyFile": "../.secrets/apikey4"
+        }
+    ]
+}

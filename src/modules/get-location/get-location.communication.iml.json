@@ -1,0 +1,14 @@
+{
+    "url": "/locations/{{parameters.id}}",
+    "method": "GET",
+    "qs": {
+        "allowed": "{{parameters.allowed}}"
+    },
+    "body": {
+        "name": "{{parameters.name}}",
+        "email": "{{lower(parameters.email)}}"
+    },
+    "response": {
+        "output": "{{parseTimestamps(body)}}"
+    }
+}

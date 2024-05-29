@@ -1,0 +1,7 @@
+{
+    "url": "/locations/{{parameters.id}}",
+    "method": "DELETE",
+    "response": {
+        "output": "{{undefined}}"
+    }
+}
