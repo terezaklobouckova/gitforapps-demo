@@ -190,6 +190,22 @@
                     "samples": "modules/universal/universal.samples.iml.json",
                     "scope": "modules/universal/universal.scope.iml.json"
                 }
+            },
+            "testModuleJan": {
+                "label": "Test Module Jan",
+                "description": "Test Module Jan",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": "connection1",
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/test-module-jan/test-module-jan.communication.iml.json",
+                    "staticParams": "modules/test-module-jan/test-module-jan.static-params.iml.json",
+                    "mappableParams": "modules/test-module-jan/test-module-jan.mappable-params.iml.json",
+                    "interface": "modules/test-module-jan/test-module-jan.interface.iml.json",
+                    "samples": "modules/test-module-jan/test-module-jan.samples.iml.json",
+                    "scope": "modules/test-module-jan/test-module-jan.scope.iml.json"
+                }
             }
         },
         "function": {
@@ -313,6 +329,92 @@
                 "webhook": []
             },
             "apikeyFile": "../.secrets/apikey4"
+        },
+        {
+            "label": "Testing Jan",
+            "baseUrl": "https://eu1.make.com/api",
+            "appId": "git-for-apps-demo-2-epqvhw",
+            "appVersion": 1,
+            "apikeyFile": "../.secrets/apikey",
+            "idMapping": {
+                "connection": [
+                    {
+                        "local": "connection1",
+                        "remote": "git-for-apps-demo-2-epqvhw"
+                    }
+                ],
+                "module": [
+                    {
+                        "local": "createLocation",
+                        "remote": "createLocation"
+                    },
+                    {
+                        "local": "deleteLocation",
+                        "remote": "deleteLocation"
+                    },
+                    {
+                        "local": "deleteRoom",
+                        "remote": "deleteRoom"
+                    },
+                    {
+                        "local": "executeRule",
+                        "remote": "executeRule"
+                    },
+                    {
+                        "local": "executeScene",
+                        "remote": "executeScene"
+                    },
+                    {
+                        "local": "getLocation",
+                        "remote": "getLocation"
+                    },
+                    {
+                        "local": "getRoom",
+                        "remote": "getRoom"
+                    },
+                    {
+                        "local": "listLocations",
+                        "remote": "listLocations"
+                    },
+                    {
+                        "local": "listRooms",
+                        "remote": "listRooms"
+                    },
+                    {
+                        "local": "listRules",
+                        "remote": "listRules"
+                    },
+                    {
+                        "local": "universal",
+                        "remote": null
+                    },
+                    {
+                        "local": "testModuleJan",
+                        "remote": "testModuleJan"
+                    }
+                ],
+                "function": [
+                    {
+                        "local": "parseTimestamps",
+                        "remote": "parseTimestamps"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "local": "locations",
+                        "remote": "locations"
+                    },
+                    {
+                        "local": "rooms",
+                        "remote": "rooms"
+                    },
+                    {
+                        "local": "rules",
+                        "remote": "rules"
+                    }
+                ],
+                "webhook": []
+            }
         }
     ]
 }

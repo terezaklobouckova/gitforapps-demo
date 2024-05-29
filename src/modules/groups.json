@@ -4,15 +4,15 @@
 		"modules": [
 			"createLocation",
 			"deleteLocation",
+			"deleteRoom",
 			"executeRule",
 			"executeScene",
 			"getLocation",
+			"getRoom",
+			"listLocations",
 			"listRooms",
 			"listRules",
-			"universal",
-			"deleteRoom",
-			"getRoom",
-			"listLocations"
+			"testModuleJan"
 		]
 	}
 ]
